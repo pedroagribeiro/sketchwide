@@ -1,0 +1,10 @@
+.item {
+  font-weight: bold;
+  font-size: 20px;
+  color: #234e52;
+}
+
+.item:hover {
+  text-decoration: none;
+  color: #ffffff;
+}
