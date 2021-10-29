@@ -6,19 +6,19 @@ import ShortService from "../components/service_short";
 function Home() {
   const navbar_items = [
     {
-      text: "ABOUT US",
+      text: "About us",
       href: "/about-us",
     },
     {
-      text: "SERVICES",
+      text: "Services",
       href: "/services",
     },
     {
-      text: "PROJECTS",
+      text: "Projects",
       href: "/projects",
     },
     {
-      text: "CONTACTS",
+      text: "Contacts",
       href: "/contacts",
     },
   ];
@@ -27,29 +27,29 @@ function Home() {
     left_hand_side: [
       {
         icon: "/service_1.png",
-        text: "2D DRAWINGS",
+        text: "2D drawings",
       },
       {
         icon: "/service_2.png",
-        text: "3D MODELING",
+        text: "3D modeling",
       },
       {
         icon: "/service_3.png",
-        text: "3D PRINTING",
+        text: "3D printing",
       },
     ],
     right_hand_side: [
       {
         icon: "/service_4.png",
-        text: "3D PRODUCT ANIMATIONS",
+        text: "3D product animations",
       },
       {
         icon: "/service_5.png",
-        text: "PHOTO REALISTIC RENDERING",
+        text: "Photo realistic rendering",
       },
       {
         icon: "/service_6.png",
-        text: "ENGINEERING SIMULATIONS",
+        text: "Engineering simulations",
       },
     ],
   };

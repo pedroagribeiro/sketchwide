@@ -9,7 +9,7 @@ function Navbar(props) {
       justifyContent="space-around"
       height="10vh"
       width="60%"
-      borderRadius="10px"
+      rounded={10}
     >
       {props.items.map((item) => (
         <Link key={item.href} href={item.href} className={styles.item}>
