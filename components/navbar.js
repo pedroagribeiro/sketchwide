@@ -8,7 +8,7 @@ function Navbar(props) {
       alignItems="center"
       justifyContent="space-around"
       height="10vh"
-      width="60%"
+      width={props.width}
       rounded={10}
     >
       {props.items.map((item) => (

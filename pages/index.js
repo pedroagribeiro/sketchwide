@@ -60,7 +60,7 @@ function Home() {
         <Logo mt="3%" mb="3%" max_width="45%" />
       </Center>
       <Center>
-        <Navbar items={navbar_items} opacity="0.70" />
+        <Navbar items={navbar_items} width="60%" opacity="0.70" />
       </Center>
       <Center mt={20} justifyContent="center">
         <Flex direction="column" mr={50}>

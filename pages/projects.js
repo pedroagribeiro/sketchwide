@@ -2,9 +2,11 @@ import { Center, Heading } from "@chakra-ui/react";
 
 function Projects() {
   return (
-    <Center>
-      <Heading>Projects</Heading>
-    </Center>
+    <Flex direction="column">
+      <Center>
+        <Heading>Projects</Heading>
+      </Center>
+    </Flex>
   );
 }
 
