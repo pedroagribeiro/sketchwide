@@ -26,29 +26,29 @@ function Home() {
   const short_services = {
     left_hand_side: [
       {
-        icon: "/service_1.png",
+        order: 0,
         text: "2D drawings",
       },
       {
-        icon: "/service_2.png",
+        order: 1,
         text: "3D modeling",
       },
       {
-        icon: "/service_3.png",
+        order: 2,
         text: "3D printing",
       },
     ],
     right_hand_side: [
       {
-        icon: "/service_4.png",
+        order: 3,
         text: "3D product animations",
       },
       {
-        icon: "/service_5.png",
+        order: 4,
         text: "Photo realistic rendering",
       },
       {
-        icon: "/service_6.png",
+        order: 5,
         text: "Engineering simulations",
       },
     ],
@@ -74,11 +74,7 @@ function Home() {
         </Flex>
         <Flex direction="column" ml={50}>
           {short_services.right_hand_side.map((service) => (
-            <ShortService
-              key={service.text}
-              icon={service.icon}
-              text={service.text}
-            />
+            <ShortService key={service.text} text={service.text} />
           ))}
         </Flex>
       </Center>
