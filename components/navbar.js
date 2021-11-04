@@ -1,20 +1,22 @@
-import styles from "../styles/Navbar.module.css";
-import { Flex, Link } from "@chakra-ui/react";
+import { Flex, Button, Link, Heading } from "@chakra-ui/react";
 
 function Navbar(props) {
   return (
     <Flex
-      background="teal.300"
+      background="teal.500"
       alignItems="center"
       justifyContent="space-around"
       height="10vh"
       width={props.width}
-      rounded={10}
+      rounded={6}
+      opacity="80%"
     >
       {props.items.map((item) => (
-        <Link key={item.href} href={item.href} className={styles.item}>
-          <a className={styles.item}>{item.text}</a>
-        </Link>
+        <Button key={item.href} colorScheme="teal">
+          <Heading size="md">
+            <Link href={item.href}>{item.text}</Link>
+          </Heading>
+        </Button>
       ))}
     </Flex>
   );
